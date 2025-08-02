@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-  <header class="flex justify-center p-[20px] gap-[80px]">
+<body class="bg-[#F5F5F5]">
+  <header class="flex justify-center p-[20px] gap-[80px] bg-white">
     <div class="w-[60%]">
       <div class="flex justify-between items-center flex-row">
         <div class="flex items-center flex-row gap-[5px]">
@@ -62,17 +62,19 @@
         <li class="hover:text-[#C92071] hover:border-b-2 hover:font-bold">
           <a href="finalizar_compra.html">Finalizar Compra</a>
         </li>
+        <li class="hover:text-[#C92071] hover:border-b-2 hover:font-bold">
+          <a href="compra_efetuada.html">Compra Efetuada</a>
+        </li>
       </ul>
     </div>
   </header>
 
-  <section class="bg-[lightgray] flex justify-center items-center">
-    <div class="bg-[lightgray] flex flex-col w-[750px] gap-[1rem] pt-10 pb-15">
-      <h3 class="text-[#1f1f1f] text-[32px] font-bold">Criar Conta</h3>
+  <section class="flex justify-center items-center">
+    <div class="flex flex-col w-[750px] gap-[1rem] pt-10 pb-15">
+      <h3 class="text-[#1f1f1f] text-[32px] font-bold">Cadastrar Conta</h3>
 
       <!-- INFORMAÇÕES PESSOAIS -->
-
-      <div class="bg-[#ffffff] flex flex-col gap-[1rem] pl-8 pt-5 pb-8">
+      <div class="bg-[#ffffff] flex flex-col gap-[1rem] pl-8 pt-5 pb-8 rounded-xl">
         <h2 class="text-[#474747] text[14px] font-bold pb-3">
           Informações pessoais
         </h2>
@@ -106,8 +108,7 @@
       </div>
 
       <!-- INFORMAÇÕES DE ENTREGA -->
-
-      <div class="bg-[#ffffff] flex flex-col gap-[1rem] pl-8 pt-5 pb-8">
+      <div class="bg-[#ffffff] flex flex-col gap-[1rem] pl-8 pt-5 pb-8 rounded-xl">
         <h2 class="text-[#474747] text[14px] font-bold pb-3">
           Informações de entrega
         </h2>
@@ -154,7 +155,7 @@
           do cliente.</label>
       </div>
 
-      <button class="bg-[#C92071] w-[750px] h-[48px] rounded-[8px] text-[#F5F5F5] font-bold text-[16px]" type="submit">
+      <button class="bg-[#C92071] hover:bg-[#991956] w-[750px] h-[48px] rounded-[8px] text-[#F5F5F5] font-bold text-[16px]" type="submit">
         Criar conta
       </button>
     </div>
